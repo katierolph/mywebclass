@@ -1,0 +1,18 @@
+/*
+* Katie Rolph
+* April 9 2018
+* CSS style sheet to edit the background color of the metadata HTML file
+*/
+
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Put body attributes here */
+
+body { 
+		background-color: mintcream;
+}
