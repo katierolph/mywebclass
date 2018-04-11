@@ -1,0 +1,35 @@
+/*
+* Katie Rolph
+* April 11 2018
+* CSS style sheet to edit the background color of the metadata HTML file
+*/
+
+
+/* The universal selector */
+
+* {
+
+}
+
+
+
+/* Put body attributes here */
+
+body { 
+		font-family: serif, sans-serif, courier;
+		background-color: mintcream;
+}
+
+/* h1 text altercations */
+
+h1 { 
+		text-decoration: underline;
+		font-size: 250%;
+		text-align: center;
+}
+
+/* image floated to the right */
+
+.float {
+		float: right;
+}
