@@ -1,6 +1,6 @@
 /*
 * Katie Rolph
-* April 9 2018
+* April 11 2018
 * CSS style sheet to edit the background color of the metadata HTML file
 */
 
@@ -11,8 +11,42 @@
 
 }
 
+
+
 /* Put body attributes here */
 
 body { 
+		font-family: serif, sans-serif, courier;
 		background-color: mintcream;
+}
+
+/* h1 text altercations */
+
+h1 { 
+		background-color: DarkCyan;
+		text-decoration: underline;
+		font-size: 250%;
+		text-align: center;
+}
+
+/* edit background color of the second heading which puts it into a block as well */
+h2 {
+		background-color: MistyRose;
+}
+
+/* separating the paragraph by changing the background and the text color */
+p {
+		background-color: white;
+		color: #000080;
+}
+
+/* changing the background color of the third heading */
+h3 {
+		background-color: #42f498;
+
+}
+/* image floated to the right */
+
+.float {
+		float: right;
 }
