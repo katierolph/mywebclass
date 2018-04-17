@@ -23,11 +23,28 @@ body {
 /* h1 text altercations */
 
 h1 { 
+		background-color: DarkCyan;
 		text-decoration: underline;
 		font-size: 250%;
 		text-align: center;
 }
 
+/* edit background color of the second heading which puts it into a block as well */
+h2 {
+		background-color: MistyRose;
+}
+
+/* separating the paragraph by changing the background and the text color */
+p {
+		background-color: white;
+		color: #000080;
+}
+
+/* changing the background color of the third heading */
+h3 {
+		background-color: #42f498;
+
+}
 /* image floated to the right */
 
 .float {
