@@ -1,0 +1,39 @@
+/*
+* Katie Rolph
+* April 18 2018
+* CSS style sheet to edit and stylize the HTML file for the Girl Develop It Project
+*/
+
+body {
+		background-color: MistyRose;
+		font-family: sans-serif;
+		}
+header {
+		text-align: center;
+		background-color: #F3616B;
+}
+
+h1 {
+	font-family: cursive;
+	text-decoration: underline;
+	}
+
+.pictures {
+			float: right;
+}
+
+h2 {
+	font-family: cursive;
+	text-decoration: underline;
+}
+
+a:link {
+		color: blue;
+}
+
+a:hover, a:focus {
+				color: fuchsia;
+				font-size: 150%;
+}
+
+
