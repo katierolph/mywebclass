@@ -1,0 +1,75 @@
+/*
+* Katie Rolph
+* May 10 2018
+* CSS style sheet to edit and stylize the Endangered Species Project
+*/
+
+* { 
+	margin: 0px;
+	padding: 0px;
+}
+
+main {
+		height: 800px;
+		width: 1400px;
+		border-top: 3px solid blue;
+		border-right: 3px solid white;
+		border-bottom: 3px solid blue;
+		border-left: 3px solid white;
+		padding: 10px;
+		margin:
+}
+
+h1 {
+	text-align: center;
+}
+
+.myhand {
+			border: 2px solid blue;
+			margin: 20px;
+			float: left;
+}
+
+#stop {
+	clear: left;
+}
+
+.picture2 {
+			border: 0.5px solid blue;
+}
+
+.picture3 {
+			border: 0.5px solid blue;
+}
+
+.picture4 {
+			border: 0.5px solid blue;
+}
+
+.picture5 {
+			border: 0.5px solid blue;
+}
+
+.picture6 {
+			border: 0.5px solid blue;
+}
+
+.picture7 {
+			float: right;
+			border: 2px solid blue;
+			margin: 10px;
+}
+
+#noborder {
+			border: 1px solid white;
+			margin-top: 20px;
+			margin-bottom: 2px;
+}
+
+#footernotes {
+				float: right;
+				color: blue;
+				border: 1px solid white;
+				margin-right: 3px;
+				margin-bottom: 5px;
+}
