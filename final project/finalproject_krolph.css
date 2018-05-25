@@ -1,0 +1,110 @@
+/* Katie Rolph
+*  May 14 2018 
+*  CSS Style Sheet for Final Project */
+
+/* The universal selector was used to zero out all margin 
+		and padding so that it is easier to edit later based on the 
+		individual sections */
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    width: 95%;
+    background-color: #959ea8;
+    margin: 15px auto;
+    border: 2px solid #0c1960;
+}
+
+h1 {
+    padding: 10px;
+    font-family: cursive;
+}
+
+/* The text in the header was edited to underline it and change the color. This 
+		selected only the header section of the HTML to change. */
+
+header {
+	text-align: center;
+    border-bottom: 2px solid #0c1960;
+    text-decoration: underline;
+    background-color: #a8c69d;
+    color: #232628;
+}
+
+#sidebarA {
+	background-color: #1d3956;
+    width: 24%;
+	height: 690px;
+    float: left;
+    border-right: 2px solid #0c1960;
+    text-align: center;
+    color: #959ea8;
+}
+
+/* An ID selector was used to add a border to one individual picture
+		that is in the first side bar */
+		
+#headshot {
+			border: 2px solid #0c1960;
+}
+
+main {
+    width: 50%;
+    height:670px;
+    float: left;
+    padding: 10px;
+    background-color: #959ea8;
+    color: #232628;
+}
+
+/* Another ID selector was used to float this picture that is in the main section
+		to the right, allowing the text to flow around it. A border was also added
+		to the image */
+
+#today {
+		float: right;
+		border: 2px solid #0c1960;
+}
+
+#johnsonglobe {
+				float: left;
+				margin: 2px;
+				border: 2px solid #0c1960;
+}
+
+#sidebarB {
+	background-color: #1d3956;
+    width: 24%;
+	height: 690px;
+    float: right;
+    border-left: 2px solid #0c1960;
+    text-align: center;
+    color: #959ea8;
+}
+
+/* This image, selected by and ID class was only used to put a border on the photo */
+
+#johnsonobama {
+				border: 2px solid #0c1960;
+}
+
+footer {
+    clear: both;
+    border-top: 2px solid #0c1960;
+    background-color: #a8c69d;
+    padding: 7px;
+    color: #232628;
+}
+
+/* These words were floated to the side and the color of the text was changed to 
+		make sure it could be seen */
+
+#educationalpurpose {
+					float: right;
+					color: red;
+}
+
+
